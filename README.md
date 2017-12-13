@@ -23,7 +23,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: leesoh.empire }
+         - { role: leesoh.git }
 
 License
 -------
