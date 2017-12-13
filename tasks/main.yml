@@ -1,8 +1,8 @@
 ---
-name: Install git
-become: true
-when: ansible_os_family == "Debian"
-apt:
-  update_cache: true
-  name: git
-  state: latest
+- name: Install git
+  become: true
+  when: ansible_os_family == "Debian"
+  apt:
+    update_cache: true
+    name: git
+    state: latest
