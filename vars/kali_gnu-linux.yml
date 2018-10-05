@@ -1,0 +1,4 @@
+---
+git_git_location: '/opt'
+git_packages:
+  - git
